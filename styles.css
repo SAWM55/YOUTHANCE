@@ -1,3 +1,61 @@
-.container-fluid {
-    background: red;
+.d-block {
+    height: 60vh;
+}
+
+nav {
+    background: #8FC1E3;
+}
+
+.cards {
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-header {
+    /* background: green; */
+    width: 80%;
+    margin-top: 40px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.menu-box {
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+}
+
+.menu-border {
+    background: rgb(106, 110, 114);
+    width: 70%;
+    height: 6px;
+}
+
+.cards-wrapped {
+    /* background: blue; */
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.btn {
+    background: dodgerblue;
+    color: #fff;
+}
+
+footer {
+    margin-top: 50px;
+    height: 80px;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
 }
