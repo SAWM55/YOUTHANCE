@@ -2,8 +2,23 @@
     height: 60vh;
 }
 
+.navbar-brand img {
+    width: 65px;
+    height: 65px;
+}
+
 nav {
-    background: #8FC1E3;
+    height: 100px;
+}
+
+.nav-wrapped {
+    width: 80%;
+    margin: 0 auto;
+    background: red;
+}
+
+ul {
+    background: green;
 }
 
 .cards {
@@ -49,13 +64,13 @@ nav {
 
 .btn {
     background: dodgerblue;
-    color: #fff;
 }
 
 footer {
     margin-top: 50px;
     height: 80px;
-    color: #fff;
+    color: #424243;
     text-align: center;
     padding-top: 20px;
+    background: #E1E2EC;
 }
