@@ -11,7 +11,8 @@ nav {
     height: 100px;
     width: 100%;
     margin: 0 auto;
-    box-shadow: 0 1px 20px 1px #ddd; /* on scroll */
+    box-shadow: 0 1px 20px 1px #ddd; /*on scroll*/
+    background: #fff;
 }
 
 .nav-wrapped {
@@ -28,7 +29,7 @@ nav {
 }
 
 .navbar-brand {
-    margin-right: 5%;
+    margin-right: 15%;
     /* background: green; */
 }
 
@@ -75,6 +76,26 @@ nav {
 
 .btn {
     background: dodgerblue;
+}
+
+.full-page {
+    height: 100vh;
+}
+
+.about-us {
+    background: red;
+}
+
+.our-services {
+    background: blue;
+}
+
+.how-it-works {
+    background: green;
+}
+
+.collaborations {
+    background: grey;
 }
 
 footer {
