@@ -33,6 +33,19 @@ nav {
     /* background: green; */
 }
 
+.header-content {
+    background: #53418a;
+    height: 65vh;
+    border: none;
+    border-bottom: 20vh solid red;
+}
+
+.curved-bottom {
+    background: #53418a;
+    /* height: 70vh; */
+    /* border-right: 45%; */
+}
+
 .cards {
     /* background: red; */
     display: flex;
@@ -50,7 +63,6 @@ nav {
 }
 
 .menu-box {
-    /* background: red; */
     display: flex;
     flex-direction: column;
     width: 8%;
@@ -80,22 +92,87 @@ nav {
 
 .full-page {
     height: 100vh;
+    padding-top: 120px;
 }
 
 .about-us {
+    width: 90%;
+    text-align: center;
+    /* background: red; */
+}
+
+.intro-about {
+    width: 50%;
+    text-align: center;
+    /* background: blue; */
+    margin: 0 auto;
+}
+
+.content-container {
     background: red;
+    margin-top: 30px;
+    display: flex;
+}
+
+.about-info {
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-img {
+    width: 50%;
+    background: blue;
+    /* height: 20px; */
+}
+
+.our-mission {
+    background: green;
+    display: flex;
+}
+
+.our-vision {
+    background: grey;
+    display: flex;
+}
+
+.vision-icon, .mission-icon {
+    flex: 20%;
+    background: olive;
+}
+
+.mission-icon {
+    background: blue;
+}
+
+.vision-text, .mission-text {
+    flex: 80%;
 }
 
 .our-services {
     background: blue;
+    width: 90%;
+    padding-top: 20px;
 }
 
 .how-it-works {
     background: green;
+    width: 90%;
+    padding-top: 20px;
 }
 
 .collaborations {
     background: grey;
+    width: 90%;
+    padding-top: 20px;
+}
+
+.container-fluid {
+    /* background: orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
 }
 
 footer {
