@@ -11,7 +11,8 @@ nav {
     height: 100px;
     width: 100%;
     margin: 0 auto;
-    box-shadow: 0 1px 20px 1px #ddd; /*on scroll*/
+    box-shadow: 0 1px 20px 1px #ddd;
+    /*on scroll*/
     background: #fff;
 }
 
@@ -34,16 +35,26 @@ nav {
 }
 
 .header-content {
-    background: #53418a;
-    height: 65vh;
-    border: none;
-    border-bottom: 20vh solid red;
+    /* background: #53418a; */
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
 }
 
-.curved-bottom {
+.header-content::before {
+    border-radius: 100%;
+    position: absolute;
     background: #53418a;
-    /* height: 70vh; */
-    /* border-right: 45%; */
+    right: -400px;
+    left: -400px;
+    top: -200px;
+    content: '';
+    bottom: 0;
+}
+
+.curved-bottom div {
+    background-color: black;
+
 }
 
 .cards {
@@ -137,7 +148,8 @@ nav {
     display: flex;
 }
 
-.vision-icon, .mission-icon {
+.vision-icon,
+.mission-icon {
     flex: 20%;
     background: olive;
 }
@@ -146,7 +158,8 @@ nav {
     background: blue;
 }
 
-.vision-text, .mission-text {
+.vision-text,
+.mission-text {
     flex: 80%;
 }
 
@@ -163,16 +176,18 @@ nav {
 }
 
 .collaborations {
-    background: grey;
     width: 90%;
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-fluid {
     /* background: orange; */
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 }
 
 footer {
