@@ -52,6 +52,46 @@ nav {
     bottom: 0;
 }
 
+.header-icon {
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+    background: #53418a;
+    width: 25%;
+    height: 80%
+}
+
+.header-info-title h1 {
+    margin: 0;
+    background: #53418a;
+    color: #ccc
+}
+
+.header-info-title button {
+    background: #53418a;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.header-btns {
+    /* width: 100%;
+    z-index: 1;
+    background: red; */
+}
+
+.header-info-title {
+    position: absolute;
+    width: 30%;
+    left: 20%;
+    top: 30%;
+}
+
+.header-icon img {
+    background: #53418a;
+    /* width: 80%; */
+    height: 100%
+}
+
 .curved-bottom div {
     background-color: black;
 
@@ -109,6 +149,7 @@ nav {
 .about-us {
     width: 90%;
     text-align: center;
+    opacity: .9;
     /* background: red; */
 }
 
@@ -120,7 +161,6 @@ nav {
 }
 
 .content-container {
-    background: red;
     margin-top: 30px;
     display: flex;
 }
@@ -134,33 +174,44 @@ nav {
 
 .about-img {
     width: 50%;
-    background: blue;
-    /* height: 20px; */
+}
+
+.about-img img {
+    height: 90%;
+    padding: 0;
 }
 
 .our-mission {
-    background: green;
     display: flex;
+    /* background: red; */
+    margin-top: 30px;
+}
+
+.mission-icon img, .vision-icon img {
+    width: 50%;
+    height: 50%;
+    opacity: .8;
 }
 
 .our-vision {
-    background: grey;
     display: flex;
 }
 
 .vision-icon,
 .mission-icon {
     flex: 20%;
-    background: olive;
-}
-
-.mission-icon {
-    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .vision-text,
 .mission-text {
     flex: 80%;
+}
+
+.vision-text h5, .mission-text h5 {
+    text-decoration: underline;
 }
 
 .our-services {
