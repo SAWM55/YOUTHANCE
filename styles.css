@@ -11,7 +11,8 @@ nav {
     height: 100px;
     width: 100%;
     margin: 0 auto;
-    box-shadow: 0 1px 20px 1px #ddd; /*on scroll*/
+    box-shadow: 0 1px 20px 1px #ddd;
+    /*on scroll*/
     background: #fff;
 }
 
@@ -33,6 +34,69 @@ nav {
     /* background: green; */
 }
 
+.header-content {
+    /* background: #53418a; */
+    height: 70vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-content::before {
+    border-radius: 100%;
+    position: absolute;
+    background: #53418a;
+    right: -400px;
+    left: -400px;
+    top: -200px;
+    content: '';
+    bottom: 0;
+}
+
+.header-icon {
+    position: absolute;
+    right: 20%;
+    bottom: 10%;
+    background: #53418a;
+    width: 25%;
+    height: 80%
+}
+
+.header-info-title h1 {
+    margin: 0;
+    background: #53418a;
+    color: #ccc
+}
+
+.header-info-title button {
+    background: #53418a;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.header-btns {
+    /* width: 100%;
+    z-index: 1;
+    background: red; */
+}
+
+.header-info-title {
+    position: absolute;
+    width: 30%;
+    left: 20%;
+    top: 30%;
+}
+
+.header-icon img {
+    background: #53418a;
+    /* width: 80%; */
+    height: 100%
+}
+
+.curved-bottom div {
+    background-color: black;
+
+}
+
 .cards {
     /* background: red; */
     display: flex;
@@ -50,7 +114,6 @@ nav {
 }
 
 .menu-box {
-    /* background: red; */
     display: flex;
     flex-direction: column;
     width: 8%;
@@ -80,22 +143,102 @@ nav {
 
 .full-page {
     height: 100vh;
+    padding-top: 120px;
 }
 
 .about-us {
-    background: red;
+    width: 90%;
+    text-align: center;
+    opacity: .9;
+    /* background: red; */
+}
+
+.intro-about {
+    width: 50%;
+    text-align: center;
+    /* background: blue; */
+    margin: 0 auto;
+}
+
+.content-container {
+    margin-top: 30px;
+    display: flex;
+}
+
+.about-info {
+    width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-img {
+    width: 50%;
+}
+
+.about-img img {
+    height: 90%;
+    padding: 0;
+}
+
+.our-mission {
+    display: flex;
+    /* background: red; */
+    margin-top: 30px;
+}
+
+.mission-icon img, .vision-icon img {
+    width: 50%;
+    height: 50%;
+    opacity: .8;
+}
+
+.our-vision {
+    display: flex;
+}
+
+.vision-icon,
+.mission-icon {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vision-text,
+.mission-text {
+    flex: 80%;
+}
+
+.vision-text h5, .mission-text h5 {
+    text-decoration: underline;
 }
 
 .our-services {
     background: blue;
+    width: 90%;
+    padding-top: 20px;
 }
 
 .how-it-works {
     background: green;
+    width: 90%;
+    padding-top: 20px;
 }
 
 .collaborations {
-    background: grey;
+    width: 90%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-fluid {
+    /* background: orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
